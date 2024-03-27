@@ -424,6 +424,7 @@ pub enum BuiltIn {
     InstanceIndex,
     PointSize,
     VertexIndex,
+    DrawIndex,
     // fragment
     FragDepth,
     PointCoord,

@@ -4376,6 +4376,7 @@ const fn glsl_built_in(built_in: crate::BuiltIn, options: VaryingOptions) -> &'s
         }
         Bi::PointSize => "gl_PointSize",
         Bi::VertexIndex => "uint(gl_VertexID)",
+        Bi::DrawIndex => "uint(gl_DrawID)",
         // fragment
         Bi::FragDepth => "gl_FragDepth",
         Bi::PointCoord => "gl_PointCoord",

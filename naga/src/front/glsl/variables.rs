@@ -200,6 +200,7 @@ impl Frontend {
                     "gl_PrimitiveID" => BuiltIn::PrimitiveIndex,
                     "gl_InstanceIndex" => BuiltIn::InstanceIndex,
                     "gl_VertexIndex" => BuiltIn::VertexIndex,
+                    "gl_DrawID" => BuiltIn::DrawIndex,
                     "gl_SampleID" => BuiltIn::SampleIndex,
                     "gl_LocalInvocationIndex" => BuiltIn::LocalInvocationIndex,
                     _ => return Ok(None),
