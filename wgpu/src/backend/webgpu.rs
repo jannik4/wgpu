@@ -378,7 +378,7 @@ fn map_primitive_state(primitive: &wgt::PrimitiveState) -> webgpu_sys::GpuPrimit
     use webgpu_sys::GpuPrimitiveTopology as pt;
     use wgt::PrimitiveTopology;
 
-    let mapped = webgpu_sys::GpuPrimitiveState::new();
+    let mut mapped = webgpu_sys::GpuPrimitiveState::new();
     mapped.set_cull_mode(map_cull_mode(primitive.cull_mode));
     mapped.set_front_face(map_front_face(primitive.front_face));
 
