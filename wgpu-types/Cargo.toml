@@ -1,6 +1,6 @@
 [package]
 name = "wgpu-types"
-version.workspace = true
+version = "26.0.0"
 authors.workspace = true
 edition.workspace = true
 description = "Common types and utilities for wgpu, the cross-platform, safe, pure-rust graphics API"

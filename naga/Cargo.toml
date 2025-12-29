@@ -1,6 +1,6 @@
 [package]
 name = "naga"
-version.workspace = true
+version = "26.0.0"
 authors.workspace = true
 edition.workspace = true
 description = "Shader translator and validator. Part of the wgpu project"
